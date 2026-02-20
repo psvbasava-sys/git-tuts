@@ -45,3 +45,54 @@ collaborate (see also: git help workflows)
 concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 See 'git help git' for an overview of the system.
+
+
+==========================================================
+
+C:\Users\PC\Basava>git init
+Initialized empty Git repository in C:/Users/PC/Basava/.git/
+
+==========================
+C:\Users\PC\Basava>git add python_dictionary.py
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   gitinfo.txt
+        new file:   python_dictionary.py
+
+
+
+C:\Users\PC\Basava>git commit -m "Masterfiles add dict datattypes"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+C:\Users\PC\Basava>git config --global user.email "psvbasava@gmail.com"
+
+C:\Users\PC\Basava>git commit -m "Masterfiles add dict datattypes"
+[master (root-commit) e403ea0] Masterfiles add dict datattypes
+ 3 files changed, 203 insertions(+)
+ create mode 100644 Python_Integer.py
+ create mode 100644 gitinfo.txt
+ create mode 100644 python_dictionary.py
+psv-basava/git-tuts
+
+
+echo "# git-tuts" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/psvbasava-sys/git-tuts.git
+git push -u origin main
+
+psvbasava-sys/git-tuts
+
+git remote add origin https://github.com/psvbasava-sys/git-tuts.git
+git branch -M main
+git push -u origin main
